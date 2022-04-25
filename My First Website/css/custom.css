@@ -1,0 +1,126 @@
+header {
+  margin-bottom: 30px;
+  background-color: white;
+}
+
+body {
+  font-family: "arvo", serif;
+  padding-top: 0px;
+}
+
+.py-3 {
+  padding-bottom: 0px;
+}
+
+.carousel {
+  box-shadow: 10px 0 10px 0 gray;
+  margin-top: 100px;
+}
+
+.carousel-caption {
+  padding-bottom: 0px;
+}
+
+.carousel-caption h1 {
+  color: maroon;
+  font-family: "Pacifico", cursive;
+  text-shadow: 2px 2px white;
+  padding-bottom: 20px;
+}
+
+.carousel-caption p {
+  color: white;
+  font-weight: 100;
+  text-shadow: 1px 1px black;
+}
+
+.carousel-caption a {
+  text-decoration: none;
+  color: blanchedalmond;
+}
+
+.heading {
+  font-size: 20px;
+}
+
+.nav-link {
+  color: maroon;
+  font-weight: 600;
+}
+
+.nav-link:hover {
+  color: pink;
+}
+
+.nav-link:focus {
+  color: maroon;
+}
+
+.btn {
+  background-color: maroon;
+  border-color: maroon;
+}
+
+.embed {
+  color: maroon;
+  font-weight: 900;
+  text-align: center;
+}
+
+.embed h1 {
+  padding-bottom: 20px;
+}
+
+.embed iframe {
+  box-shadow: 10px 0 10px 0 gray;
+}
+
+.marketing h1 {
+  color: maroon;
+  text-align: center;
+  font-weight: 800;
+}
+
+.hrs {
+  width: 80px;
+  margin: 0 auto 30px auto;
+  color: palevioletred;
+  opacity: 0.8;
+}
+
+.marketing h2 {
+  text-transform: uppercase;
+  font-size: 24px;
+  font-weight: 600;
+  color: palevioletred;
+}
+
+.featurette-divider {
+  margin: 40px auto;
+}
+
+.marketing .col-lg-4 {
+  margin-bottom: 0;
+}
+
+img {
+  box-shadow: 1px 3px 9px 4px gray;
+}
+
+.tips {
+  width: 500px;
+  margin: 50px auto 30px auto;
+  color: palevioletred;
+  opacity: 0.5;
+}
+
+.credits {
+  padding-top: 20px;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.credits a {
+  text-decoration: none;
+  color: palevioletred;
+}
