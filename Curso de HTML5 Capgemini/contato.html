@@ -5,6 +5,37 @@
         <title>Contato</title>
     </head>
     <body>
-        Contato
+        <form>
+            <input type="text" name="name" placeholder="Nome" /><br/>
+            <input type="email" name="email" placeholder="E-mail" /><br/>
+            <input type="password" name="password" placeholder="Senha" /><br/>
+            <input type="search" name="search" placeholder="Busca" /><br/>
+            <input type="number" name="age" placeholder="Idade" /><br/>
+            <input type="url" name="linkedin" placeholder="LinkedIn" /><br/>
+            Urgência<input type="range" name="urgency" min="0" max="100" step="0.1" /><br/>
+            <input type="checkbox" name="dia-da-semana" value="2" />Segunda-feira<br/>
+            <input type="checkbox" name="dia-da-semana" value="4" />Quarta-feira<br/>
+            <input type="checkbox" name="dia-da-semana" value="6" />Sexta-feira<br/>
+            <!--radio precisa ter o mesmo nome para permitir selecionar apenas um campo-->
+            <input type="radio" name="horario" value="manha" />Manhã
+            <input type="radio" name="horario" value="tarde" />Tarde
+            <input type="radio" name="horario" value="noite" />Noite<br/>
+            <textarea name="text" cols="50" rows="10"></textarea><br/>
+            <select name="cidade">
+                <option value="">Selecione a cidade</option>
+                <option value="blumenau">Blumenau</option>
+                <option value="florianopolis">Florianópolis</option>
+                <option value="joinville">Joinville</option>
+            </select><br/>
+            <input list="cidade" name="cidade" />
+            <datalist id="cidade">
+                <option value="Blumenau">Blumenau</option>
+                <option value="Florianópolis">Florianópolis</option>
+                <option value="Joinville">Joinville</option>
+            </datalist><br/>
+            <button type="button">Outra ação</button>
+            <button type="submit">Enviar</button>
+            <button type="reset">Limpar</button>
+        </form>
     </body>
 </html>
