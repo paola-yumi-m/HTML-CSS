@@ -1,0 +1,52 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+nav {
+    background-image: url('nav-bg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #661417;
+    font-size: 18px;
+    font-weight: bold;
+    font-family: 'Lobster Two', cursive;
+    padding: 20px;
+    margin-bottom: 30px;
+}
+
+nav a {
+    color: #661417;
+    text-decoration: none;
+}
+
+nav p, nav ul {
+    cursor: pointer;
+}
+
+body {
+    background-color: white;
+    color: #084240;
+    font-family: 'Courier New', sans-serif;
+}
+
+main{
+    margin: 10px 20px;
+}
+
+main a {
+    color: #084240;
+    text-decoration: none;
+}
+
+li {
+    list-style-type: none;
+}
+
+h1, h2 {
+    font-family: 'Poiret One', cursive;
+}
+
+section {
+    margin: 20px;
+}

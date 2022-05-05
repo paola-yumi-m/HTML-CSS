@@ -3,27 +3,49 @@
     <head>
         <meta charset="UTF-8"/>
         <title>Portfolio</title>
-    </head>
+        <!-- JS -->
+        <script src="jquery-3.6.0.min.js"></script>
+        <script>
+            $(document).ready(function() {
+                $('#inicio-dropdown').click(function() {
+                    if ($('#ul-inicio').css('display', 'none')) {
+                        $('#ul-inicio').fadeIn();
+                    } 
+                });
+            });
+        </script>
+        <!-- CSS -->
+        <link rel="stylesheet" href="style.css" />
+        <!-- Fonte body -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poiret+One&display=swap" rel="stylesheet">
+        <!-- Fonte nav -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Lobster+Two&family=Roboto:wght@700&display=swap" rel="stylesheet">
+        
+</head>
     <body>
         <nav>
-            <a href="portfolio.html">Início</a><br>
-                <ul>
-                    <li><a href="#sobre">Sobre Mim</a></li>
-                    <li><a href="#projetos">Projetos</a></li>
-                </ul>
+            <p id="inicio-dropdown">Início</p>
+            <ul id="ul-inicio" style="display: none;">
+                <li><a href="#sobre">Sobre Mim</a></li>
+                <li><a href="#projetos">Projetos</a></li>
+            </ul>
             <a href="cv.html">Meu currículo</a>
         </nav>
-        <h1>Paola Yumi Matsumoto</h1>
-        <section>
-            <h2>Contato</h2>
-            <ul>
-                <li><a href="mailto:paola.yumi.m@gmail.com">paola.yumi.m@gmail.com</a></li>
-                <li><a href="tel:(16) 98103-5163">(16) 98103-5163</a></li>
-                <li><a href="https://www.linkedin.com/in/paola-matsumoto-67544b107/">LinkedIn</a></li>
-                <li><a href="https://github.com/paola-yumi-m">GitHub</a></li>
-            </ul>
-        </section>
         <main>
+            <h1>Paola Yumi Matsumoto</h1>
+            <section>
+                <h2>Contato</h2>
+                <ul>
+                    <li><a href="mailto:paola.yumi.m@gmail.com">paola.yumi.m@gmail.com</a></li>
+                    <li><a href="tel:(16) 98103-5163">(16) 98103-5163</a></li>
+                    <li><a href="https://www.linkedin.com/in/paola-matsumoto-67544b107/">LinkedIn</a></li>
+                    <li><a href="https://github.com/paola-yumi-m">GitHub</a></li>
+                </ul>
+            </section>
             <section>
                 <h2 id="sobre">Sobre mim</h2>
                 <!-- Adicionar fotos -->
