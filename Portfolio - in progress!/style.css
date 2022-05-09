@@ -1,3 +1,7 @@
+/*
+add sticky position to each section
+*/
+
 * {
     box-sizing: border-box;
     margin: 0;
@@ -13,6 +17,11 @@ nav {
     font-family: 'Lobster Two', cursive;
     padding: 20px;
     margin-bottom: 30px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 10;
 }
 
 nav a {
@@ -32,6 +41,8 @@ body {
 
 main{
     margin: 10px 20px;
+    position: relative;
+    top: 300px;
 }
 
 main a {
@@ -49,4 +60,5 @@ h1, h2 {
 
 section {
     margin: 20px;
+    position: sticky;
 }
